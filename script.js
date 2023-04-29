@@ -7,10 +7,7 @@ class intro extends Phaser.Scene {
         this.load.image('logo', 'logo.png');
     }
     create(){
-    //this.graphics = this.add.graphics();
-    //this.graphics.fillStyle(0xff9900, 1);
-   // this.graphics.fillRect(600,50,150,100); //x1,y1, width, height
-    //create text object
+    
     this.textObject = this.add.text(300, 400,
         `Fruitastic Fun
     Studios`, 
